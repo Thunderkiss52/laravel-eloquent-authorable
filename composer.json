@@ -1,0 +1,38 @@
+{
+    "name": "Thunderkiss52/laravel-eloquent-authorable",
+    "description": "Support for created_by and updated_by fields in Eloquent models. for laravel 8-11",
+    "homepage": "https://github.com/Thunderkiss52/laravel-eloquent-authorable",
+    "support": {
+        "issues": "https://github.com/Thunderkiss52/laravel-eloquent-authorable/issues"
+    },
+    "authors": [
+        {
+            "name": "AXN Informatique",
+            "email": "developpement@axn.fr"
+        },
+        {
+            "name": "Kopaev",
+            "email": "viacheslav.kopaev@yandex.ru"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "illuminate/database": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "illuminate/auth": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "spatie/laravel-package-tools": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thunderkiss52\\EloquentAuthorable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thunderkiss52\\EloquentAuthorable\\ServiceProvider"
+            ]
+        }
+    }
+}
